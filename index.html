@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Aufgabe</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            color: gray;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        img {
+            max-width: 100%;
+            height: max(400px, 300px);
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        ul {
+            padding-left: 20px;
+            list-style-type: square;
+        }
+        blockquote {
+            font-style: italic;
+            color: #666;
+            border-left: 4px solid #ccc;
+            padding-left: 15px;
+            margin: 20px 0;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin: 30px 0;
+            font-size: 0.9em;
+            color: #777;
+        }
+        form {
+            background: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background-color: #0066cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #004999;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Titel -->
+<header>
+    <h1>Erste schritt in HTMLs & CSS</h1>
+    <p>Folge Omar für mehr</p>
+</header>
+
+<!-- Hauptinhalt -->
+<main>
+    <!-- Überschrift -->
+    <h2>Schritt 1</h2>
+
+    <!-- Absatz -->
+    <p>
+
+        hier kannst du dein text eingeben.
+    </p>
+
+    <!-- Bild -->
+    <img src="https://images.ctfassets.net/m8n66tuamygx/2D6lSM0e3n4X8DYNIDCtnY/7b104b4be210da84219c03a591ebda1e/hero-image.png?w=2048&q=75&fm=webp" alt="neue fische">
+
+    <!-- Liste -->
+    <h3>Hier ist ein List-Beispiel</h3>
+    <ul>
+        <li>lern html</li>
+        <li>lern css</li>
+        <li>lern javascript</li>
+        <li>lern java</li>
+    </ul>
+
+    <!-- Link -->
+    <p>
+        Wenn du dir einen Fullstack kurs suchst, schau dir diese Seite
+        <a href="https://www.neuefische.de/" target="_blank">Suche einen Fullstack kurs</a> an.
+    </p>
+
+    <!-- Zitat -->
+    <blockquote>
+        Java ist besser als C#
+    </blockquote>
+</main>
+
+<!-- Kommentarbereich -->
+<footer>
+    <h3>Hinterlasse einen Kommentar</h3>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Dein Name" required>
+
+        <label for="comment">Kommentar:</label>
+        <textarea id="comment" name="comment" placeholder="Dein Kommentar..." rows="4" required></textarea>
+
+        <button type="submit">Kommentar abschicken</button>
+    </form>
+</footer>
+
+</body>
+</html>
